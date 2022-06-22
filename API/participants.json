@@ -1,0 +1,44 @@
+{
+  "participants": [
+    {
+      "adress": "Musterstreet 4",
+      "concert": "Lewis Capaldi",
+      "email": "johndoe@gmail.com",
+      "plz": "8001",
+      "prename": "John",
+      "surname": "Doe"
+    },
+    {
+      "adress": "Musterstreet 4",
+      "concert": "Max Muster",
+      "email": "johndoe@gmail.com",
+      "plz": "8001",
+      "prename": "Martin",
+      "surname": "Doe"
+    },
+    {
+      "adress": "Musterstreet 4",
+      "concert": "Lewis Capaldi",
+      "email": "miawillnauer@gmail.com",
+      "plz": "8001",
+      "prename": "Mia",
+      "surname": "Willnauer"
+    },
+    {
+      "adress": "Waffenplatzstrasse 37",
+      "concert": "Adel Tawil",
+      "email": "mia4@gmx.ch",
+      "plz": "8634",
+      "prename": "Mia",
+      "surname": "Willnauer"
+    },
+    {
+      "adress": "Waffenplatzstrasse 37",
+      "concert": "Adel Tawil",
+      "email": "mia4@gmx.ch",
+      "plz": "7987",
+      "prename": "Mia",
+      "surname": "Willnauer"
+    }
+  ]
+}

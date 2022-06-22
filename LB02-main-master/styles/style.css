@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.box {
+    float: left;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: skolar-sans-latin, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+body {
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-image: url(../media/fotos/header_bild.jpg);
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: 500px;
+    background-attachment: fixed;
+    font-family: skolar-sans-latin, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#slogan {
+    text-align: justify;
+    margin-left: 140px;
+    color: #fff;
+}
+
+header img {
+    width: 250px;
+    height: auto;
+}
+
+header nav {
+    margin: 0;
+    padding: 30px;
+    padding-right: 60px;
+    color: white;
+    background-color: rgba(110, 134, 128, 0.67);
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+header nav ul a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(252, 252, 252);
+    font-size: 20px;
+}
+
+header nav ul a:hover {
+    color: rgb(45, 76, 80);
+}
+
+main {
+    padding: 60px;
+    background-color: #2d4c50;
+    font-family: skolar-sans-latin, sans-serif;
+    background-size: cover;
+    color: white;
+}
+
+.main {
+    padding: 0px;
+    background-color: #2d4c50;
+    font-family: skolar-sans-latin, sans-serif;
+    background-size: cover;
+    color: white;
+}
+
+.wrapper {
+    padding: 60px;
+}
+
+main.konzert {
+    height: 100vw;
+}
+
+
+.phone {
+    display: block;
+    width: 32px;
+    height: auto;
+}
+
+#abstand br {
+    height: 200px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    font-family: skolar-sans-latin, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-family: skolar-sans-latin, sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: skolar-sans-latin, sans-serif;
+
+}
+
+#bands {
+    display: block;
+    width: 32px;
+    height: auto;
+}
+
+footer {
+    color: #ffffff;
+    opacity: 1;
+    margin: 0;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.99);
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#homebutton {
+    width: 32px;
+    height: auto;
+}
+
+button.btn.btn-outline-dark {
+    color: #fff;
+    border-color: #ffffff;
+}
+
+button.btn-outline-dark:hover {
+    color: #fff;
+    background-color: rgba(147, 172, 162, 0.67);
+    border-color: rgba(147, 172, 162, 0.67);
+}
+
+#svg_grafik {
+    width: 48px;
+    height: 48px;
+}
+
+div.container {
+    width: 50%;
+    float: left;
+}
+
+div.conatiner_right {
+    width: 50%;
+    float: right;
+}
+
+#carouselExampleControls_2 {
+    width: 50%;
+}
+
+
+div.mb-3 {
+    color: white;
+}
+
+
+div#video.container_right {
+    width: 50%;
+    float: right;
+}
+
+
+button.btn.btn-primary.mb-3 {
+    background-color: rgba(147, 172, 162, 0.67);
+    border-color: rgba(147, 172, 162, 0.67);
+}
+
+.telefon {
+    text-decoration: none;
+    color: white;
+}
+
+a.telefon:hover {
+    text-decoration: underline;
+    color: rgba(147, 172, 162, 0.67);
+}
+
+.social_media {
+    text-align: left;
+}
+
+.card {
+    background-color: rgba(208, 208, 208, 0.27);
+}
+
+.row > * {
+    padding-top: calc(var(--bs-gutter-x) / 2);
+}
+
+.card-text.date {
+    margin-bottom: 0px;
+}
+
+.card-text.place {
+    margin-bottom: 10px;
+}
+
+.text-muted {
+    color: #000000 !important;
+}
+
+.row {
+    background: rgba(147, 172, 162, 0.67);
+    margin: 20px;
+    margin-left: 0;
+    padding: 15px;
+}
+
+.artist {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    background-color: #93ACA2AA;
+}
+
+. {
+    background-color: lightblue;
+    border-color: #2d4c50;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  Versionen ist beim Link @5.0.1 (erwähnen 1. Punkt video)-->
+<!--erwähnen wie eingebunden (per Link oder mit der cdn technologie)-->
+<head>
+    <meta charset="UTF-8">
+    <link href="media/png/logonegativ.png" rel="icon" type="image/png">
+    <title>Band Up!</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="https://use.typekit.net/lns5agz.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" rel="stylesheet">
+    <script crossorigin="anonymous"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body onload="loadMusicians('dropdown')">
+<header>
+    <a href="index.html"><img alt="Band Up ogo" id="logoo" src="media/png/logonegativ.png"></a>
+    <p id="slogan">
+        ...'cause music is our passion...
+    </p>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="konzerte.html">Konzerte</a>
+            </li>
+            <li>
+                <a href="musikinstrumente.html">Musikinstrumente</a>
+            </li>
+            <li>
+                <a href="tickets_and_co.html">Tickets</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="konzert">
+    <div class="container">
+        <h1>Jetzt Anmelden!</h1>
+        <p>Reserviere dir jetzt dein Ticket!</p>
+
+        <div class="anmeldeformular">
+
+
+            <div class="needs-validation" novalidate>
+                <div class=form-group">
+                    <label class="form-label" for="konzerte_select">Konzert</label>
+                    <select class="form-select" id="konzerte_select" required>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="name_felder">Vorname</label>
+                    <input class="form-control" id="name_felder" name="name_felder" onblur="textValidierung('name_felder')"
+                           placeholder="Vorname eingeben" required type="text">
+                    <div class="invalid-feedback">Bitte geben Sie Ihren Vornamen an</div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="lastname_felder">Nachname</label>
+                    <input class="form-control" id="lastname_felder" name="lastname_felder" onblur="textValidierung('lastname_felder')"
+                           placeholder="Nachname eingeben" required type="text">
+                    <div class="invalid-feedback">Bitte geben Sie Ihren Nachnamen an</div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="address_felder">Adresse</label>
+                    <input class="form-control" id="address_felder" name="address_felder" onblur="textValidierung('address_felder')"
+                           placeholder="Adresse eingeben" required type="text">
+                    <div class="invalid-feedback">Bitte geben Sie Ihre Adresse an</div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="plz_felder">PLZ</label>
+                    <input class="form-control" id="plz_felder" name="plz_felder" onblur="numberValidierung('plz_felder')" placeholder="PLZ eingeben"
+                           required type="text">
+                    <div class="invalid-feedback">Bitte geben Sie Ihre Adresse an</div>
+                </div>
+                <br>
+                <br>
+                <!--Da unten ist der Code für die Checkbox--!>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <input aria-label="Checkbox for following text input" type="checkbox">
+                            <h6>Ich akzeptiere die AGB's der Unternehmung</h6>
+                        </div>
+                        <br><br>
+                        <div class="form-group">
+                            <label class="form-label" for="email_felder">E-Mail</label>
+                            <input class="form-control is-invalid" id="email_felder" name="email_felder"
+                                   onkeyup="emailValidierung()" placeholder="E-Mail eingeben" required
+                                   type="text">
+                            <div class="invalid-feedback">Bitte geben Sie Ihre E-Mail an</div>
+                            <div class="valid-feedback">Korrekt!</div>
+                        </div>
+                        <button class="btn btn-primary mb-3" disabled id="submitButton" onclick="buyTicket()">
+                            Bestätigen
+                        </button>
+                    </div>
+
+
+                    <!--farb ändern für schritt "ÄNDERUNGEN"-->
+                </div>
+</main>
+<footer>
+    <br>
+    <br>
+    <dl>
+        <a href="https://www.instagram.com/mia.w.00/"><img alt="Instagram" class="phone" src="media/png/instagram.png"></a>
+        <dt>
+            <br>
+            <p class="social_media">
+                Folge uns auf unserem Channel!
+            </p>
+        </dt>
+    </dl>
+</footer>
+</body>
+</html>
